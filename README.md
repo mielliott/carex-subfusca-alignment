@@ -3,16 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: animalia.tsv
-      enabled: false
-      type: text/tab-separated-values
-    - url: plantae.tsv
-      enabled: false
-      type: text/tab-separated-values
-    - url: names.tsv
-      enabled: false
-      type: text/tab-separated-values
-    - url: corrected-names.tsv
+    - url: names.csv
       enabled: true
       type: text/tab-separated-values
 # 
